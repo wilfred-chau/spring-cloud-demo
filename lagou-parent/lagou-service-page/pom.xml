@@ -11,5 +11,13 @@
 
     <artifactId>lagou-service-page</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.chau</groupId>
+            <artifactId>lagou-service-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

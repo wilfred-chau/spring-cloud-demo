@@ -9,13 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lagou-service-product</artifactId>
+    <artifactId>lagou-cloud-eureka</artifactId>
 
     <dependencies>
+        <!--Eureka server依赖-->
         <dependency>
-            <groupId>com.chau</groupId>
-            <artifactId>lagou-service-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
